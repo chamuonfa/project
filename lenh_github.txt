@@ -1,0 +1,14 @@
+push project lên: 
+	git init        (khởi tạo git trong folder cần add lên github)
+	git status     (KT xem có file nào có thể đẩy lên đc)
+	git add .       (đẩy tất cả source code của mình lên)
+	git status     (KT file nào đã đc đánh dấu)
+	git commit -m "create new project"     (đẩy lên cái gì ohair thông báo cho mn biết tron "...")
+	git remote add origin https://github.com/chamuonfa/demo.git    (conect giữa máy và trên github)
+	git push origin master      (đẩy folder lên nhánh master trên github)
+
+pull project về:
+	git init    (khởi tạo git init trong foleder cần pull về)
+	git pull https://github.com/chamuonfa/demo.git  (lệnh pull về với đường link trên github)
+	
+npm install --package-lock-only
