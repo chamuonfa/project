@@ -12,5 +12,3 @@ pull project về:
 	git pull https://github.com/chamuonfa/demo.git  (lệnh pull về với đường link trên github)
 	
 npm install --package-lock-only
-
-ffffff
